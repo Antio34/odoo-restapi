@@ -26,7 +26,7 @@ Contribution
 
 * Try it out::
 
-    cd /path/to/odoo-webhook/docs
+    cd /path/to/odoo-restapi/docs
     make html
     # check warnings and errors in compilation logs
     google-chrome _build/html/index.html
