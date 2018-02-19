@@ -60,7 +60,7 @@ Record data is accessible via the `read() <https://www.odoo.com/documentation/10
    :statuscode 401: authentication failed
    :statuscode 403: if any error raise
    
-Conversedly, picking only three fields deemed interesting.
+Conversely, picking only three fields deemed interesting.
 
    **Request**:
 
@@ -157,7 +157,7 @@ Record data is accessible via the `read() <https://www.odoo.com/documentation/10
    :statuscode 401: authentication failed
    :statuscode 403: if any error raise
    
-Conversedly, picking only three fields deemed interesting.
+Conversely, picking only three fields deemed interesting.
 
    **Request**:
 
@@ -272,7 +272,7 @@ It takes similar arguments of `search() <https://www.odoo.com/documentation/10.0
    :statuscode 401: authentication failed
    :statuscode 403: if any error raise
 
-Conversedly, picking only three fields deemed interesting.
+Conversely, picking only three fields deemed interesting.
 
    **Request**:
 
