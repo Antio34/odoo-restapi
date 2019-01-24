@@ -5,6 +5,8 @@ Workflow Manipulations
 
 Signals are sent to a specific record using ``restapi/1.0/workflow`` endpoint, and possibly trigger a transition on the workflow instance associated with the record.
 
+.. note:: Workflow manipulation will be used only for Odoo older version (V8.0,V9.0,V10.0).
+
 .. http:get:: /restapi/1.0/workflow/{object_name}/{id}/{signal}
 
    **Request**:

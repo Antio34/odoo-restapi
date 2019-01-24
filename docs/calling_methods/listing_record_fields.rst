@@ -23,7 +23,7 @@ Because it returns a large amount of meta-information (it is also used by client
       HTTP/1.1 200 OK
 
       {
-        'fields': {
+        'res.partner': {
             'ean13': {
                 'type': 'char',
                 'help': 'BarCode',

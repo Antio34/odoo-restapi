@@ -58,7 +58,7 @@ Example
       HTTP/1.1 200 OK
 
       {
-        'Models': {
+        'ir.model': {
             'id': 104, 
             'name': 'Custom Model',
             'model': 'x_custom_model',
@@ -87,7 +87,7 @@ Example
       HTTP/1.1 200 OK
 
       {
-        'fields': {
+        'x_custom_model': {
             'create_uid': {
                 'type': 'many2one',
                 'string': 'Created by'
@@ -166,7 +166,7 @@ Example
       HTTP/1.1 200 OK
 
       {
-        'Models': {
+        'ir.model': {
             'id': 105, 
             'name': 'Custom Model',
             'model': 'x_custom',
@@ -193,7 +193,7 @@ Example
       HTTP/1.1 200 OK
 
       {
-        'Fields': {
+        'ir.model.fields': {
             'id': 210, 
             'name': 'x_name',
             'model_id': [105, 'Custom Model'],
@@ -222,7 +222,7 @@ Example
       HTTP/1.1 200 OK
 
       {
-        'Custom Model': {
+        'x_custom': {
             'id': 115, 
             'x_name': 'test record',
             'display_name': 'test record',            

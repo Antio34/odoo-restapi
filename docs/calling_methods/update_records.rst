@@ -29,7 +29,7 @@ Record can be updated using `write() <https://www.odoo.com/documentation/10.0/re
       HTTP/1.1 200 OK
 
       {
-        'Partner': {
+        'res.partner': {
             'id': 20, 
             'name': 'Peter Mitchell',
             'street': '31 Hong Kong street',
@@ -84,7 +84,7 @@ Multiple records can be updated simultanously, but they will all get the same va
       HTTP/1.1 200 OK
 
       {
-        'Partner': [
+        'res.partner': [
             {
                 'id': 17, 
                 'name': 'Edward Foster',

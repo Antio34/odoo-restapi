@@ -19,7 +19,7 @@ Records can be listed and filtered via `search() <https://www.odoo.com/documenta
       HTTP/1.1 200 OK
 
       {
-        'Partner': [
+        'res.partner': [
             7, 18, 12, 10, 17, 19, 8, 31, 26, 16, 13, 20, 30, 22, 29, 15, 23, 28, 74
         ]
       }
@@ -60,7 +60,7 @@ By default a ``restapi/1.0/object/{object_name}/search`` will return the ids of 
       HTTP/1.1 200 OK
 
       {
-        'Partner': [
+        'res.partner': [
             13, 20, 30, 22, 29
         ]
       }

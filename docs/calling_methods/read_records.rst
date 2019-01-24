@@ -30,7 +30,7 @@ Record data is accessible via the `read() <https://www.odoo.com/documentation/10
       HTTP/1.1 200 OK
 
       {
-        'Partner': {
+        'res.partner': {
             'id': 12, 
             'name': 'Think Big Systems',
             'street': '89 Lingfield Tower',
@@ -76,7 +76,7 @@ Conversely, picking only three fields deemed interesting.
       HTTP/1.1 200 OK
 
       {
-        'Partner': {
+        'res.partner': {
             'id': 12, 
             'name': 'Think Big Systems',
             'country_id': [486, 'United Kingdom']
@@ -108,7 +108,7 @@ Record data is accessible via the `read() <https://www.odoo.com/documentation/10
       HTTP/1.1 200 OK
 
       {
-        'Partner': [
+        'res.partner': [
             {
                 'id': 12, 
                 'name': 'Think Big Systems',
@@ -173,7 +173,7 @@ Conversely, picking only three fields deemed interesting.
       HTTP/1.1 200 OK
 
       {
-        'Partner': [
+        'res.partner': [
             {
                 'id': 12, 
                 'name': 'Think Big Systems',
@@ -214,7 +214,7 @@ It takes similar arguments of `search() <https://www.odoo.com/documentation/10.0
       HTTP/1.1 200 OK
 
       {
-        'Partner': [
+        'res.partner': [
             {
                 'id': 12, 
                 'name': 'Think Big Systems',
@@ -288,7 +288,7 @@ Conversely, picking only three fields deemed interesting.
       HTTP/1.1 200 OK
 
       {
-        'Partner': [
+        'res.partner': [
             {
                 'id': 7, 
                 'name': 'Agrolait',

@@ -28,7 +28,7 @@ It takes a mapping of fields to values, used to initialize the record. For any f
       HTTP/1.1 200 OK
 
       {
-        'Partner': {
+        'res.partner': {
             'id': 20, 
             'name': 'Peter Mitchell',
             'street': '31 Hong Kong street',

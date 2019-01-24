@@ -15,9 +15,11 @@ Get the module
 
 The module **restapi** is available on **Odoo App Store**, Here are links for:
     
+    * `Version 8.0 (Community) <https://www.odoo.com/apps/modules/8.0/restapi/>`_
     * `Version 9.0 (Community & Enterprise) <https://www.odoo.com/apps/modules/9.0/restapi/>`_
     * `Version 10.0 (Community & Enterprise) <https://www.odoo.com/apps/modules/10.0/restapi/>`_
     * `Version 11.0 (Community & Enterprise) <https://www.odoo.com/apps/modules/11.0/restapi/>`_    
+    * `Version 12.0 (Community & Enterprise) <https://www.odoo.com/apps/modules/12.0/restapi/>`_
 
 Installation
 ============
